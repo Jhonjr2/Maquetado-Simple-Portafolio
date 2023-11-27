@@ -89,21 +89,20 @@ button {
 }
 
 .section1 {
-    padding-top: 70%;
-    height: calc(100vh - 50px);
+    padding-top: 100%;
+    height: calc(100vh - 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
     padding-bottom: 70%;
-   
-   
+    
 }
 
 .title {
     font-size: 50px;
-    
+    text-align: center;
 }
 
 .lorem {
@@ -174,14 +173,10 @@ button {
     flex-direction: column;
     gap: 30px;
     background-color: var(--secundary-color);
-
-    
-    
 }
 
 .title2 {
     font-size: 35px;
-    
 }
 
 .lorem2 {
@@ -280,6 +275,7 @@ button {
         grid-column: 1;
         grid-row: 1;
         font-size: 80px;
+        text-align: start;
     }
 
     .lorem {
