@@ -10,6 +10,7 @@
     --secundary-color: #fcda68;
     --third-color: #423f40;
     --quarter-color: #7F7F7F;
+    --fifth-color: #f9f5f2;
 
 }
 
@@ -173,7 +174,6 @@ button {
     flex-direction: column;
     gap: 30px;
     background-color: var(--secundary-color);
-    margin-bottom: 40px;
 }
 
 
@@ -252,6 +252,7 @@ button {
 
 }
 
+
 .textPortafolio {
     font-size: 35px;
 }
@@ -260,6 +261,64 @@ button {
     font-size: 25px;
     margin-bottom: 25px;
     gap: 35px;
+}
+
+/* ------------------------ */
+
+footer {
+ padding: 30px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 45px;
+}
+
+.title3 {
+    font-size: 32px;
+}
+
+.iconContacto {
+   display: flex;
+   align-items: center;
+   gap: 80px;
+   padding-bottom: 45px;
+}
+
+.iconContacto img {
+   
+    background-color: var(--fifth-color);
+    border-radius: 50%;
+    padding: 25px;
+    
+}
+
+.icon-Telefono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1{
+    font-size: 18px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 15px;
+    text-align: center;
+    color: var(--quarter-color);
+}
+
+.textFinal {
+    color: var(--primary-color);
+    font-size: 20px;
+    padding-bottom: 25px;
 }
 
 
@@ -291,7 +350,7 @@ button {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        padding: 60px;
+        padding: 70px;
         padding-bottom: 45%;
 
     }
@@ -346,9 +405,8 @@ button {
     .section2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        padding: 60px;
-        /* padding-bottom: 45%; */
+        grid-template-rows: repeat(3, auto);
+        padding: 70px;
     }
 
     .titleYLorem {
@@ -382,15 +440,71 @@ button {
     .textHabilidades {
         grid-column: 1;
         grid-row: 2;
-        margin-top: -150px;
 
     }
 
     .Habilidades1 {
         grid-column: 1/ span 2;
-        grid-row: 4;
+        grid-row: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
 
     }
+
+    /* ------------------- */
+
+    /* -------------------- */
+
+    footer {
+        padding: 70px;
+        display: grid;
+        gap: 45px;
+    }
+
+    .title3 {
+        display: flex;
+        align-items: start;
+    }
+    .iconContacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 170px;
+      
+    }
+
+    .iconContacto img {
+        border-radius: 30%;
+        width: 120px;
+        aspect-ratio: 1;
+    }
+
+    .icon-Telefono img{
+        margin-bottom: 20px;
+    }
+
+    .icon-email img{
+        margin-bottom: 20px;
+
+    }
+    .p1 {
+      font-size: 12px;
+    }
+
+    .p2 {
+        font-size: 10px;
+    }
+
+    .textFinal {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+  
 
 }
    
