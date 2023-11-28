@@ -245,22 +245,43 @@ button {
 
 /* ----------------------------------- */
 
-.section3 {
-    padding: 20px;
-    margin-bottom: 70px;
+.ejemplosP {
     display: flex;
-
+    flex-direction: column;
 }
 
 
 .textPortafolio {
     font-size: 35px;
+    padding: 30px ;
+    margin-top: 25px;
 }
 
-.bloqueEj1 img {
-    font-size: 25px;
-    margin-bottom: 25px;
-    gap: 35px;
+.ejemplosP h4 {
+    padding-left: 30px;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.ejemplosP img { 
+    padding: 10px;
+    width: 100%;
+}
+
+.bloqueEj1 {
+    padding: 22px;
+}
+
+.bloqueEj2 {
+    padding: 22px;
+}
+
+.bloqueEj3 {
+    padding: 40px;
+}
+
+.bloqueEj3 h4 {
+    padding-left: 10px;
 }
 
 /* ------------------------ */
@@ -455,6 +476,40 @@ footer {
     }
 
     /* ------------------- */
+
+   
+
+    .ejemplosP {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        padding: 30px;
+    }
+
+    .ejemplosP img {
+        margin-left: px;
+    }
+
+    .textPortafolio {
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+    .bloqueEj1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .bloqueEj2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .bloqueEj3 {
+        grid-column: 3;
+        grid-row: 2;
+    }
 
     /* -------------------- */
 
